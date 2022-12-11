@@ -1,13 +1,24 @@
 import React from 'react';
 import Navbar from '../../Shared/Navbar/Navbar';
-import Banner from '../Banner/Banner';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
+import Experience from '../Experience/Experience';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import Portfolio from '../Portfolio/Portfolio';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <Header></Header>>
+            <Header></Header>
+            <About></About>
+            <Experience></Experience>
+            <Portfolio></Portfolio>
+            <Services></Services>
+            <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
