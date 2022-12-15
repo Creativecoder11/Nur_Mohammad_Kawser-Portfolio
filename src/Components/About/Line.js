@@ -27,13 +27,11 @@ const Line = () => {
             }}
             icon={<FaGraduationCap />}
           >
-            <h3>BSc in Computer Science & Engineering</h3>
-            <h5 className="">Daffodil International University</h5>
+            <h3>B.A in Economics</h3>
+            <h5 className="">Tejgaon College</h5>
             <p className="text-light">
-              I'm a former member of Daffodil International University Computer
-              Programming Club. Had keen interest on robotics but it turned out
-              that I'm much interested and attracted towards programming than
-              robotics.
+              I'm a former member of Tejgaon College. Had keen interest on Mathematics but it turned out
+              that I'm much interested and attracted towards programmings.
             </p>
           </VerticalTimelineElement>
 
@@ -54,11 +52,10 @@ const Line = () => {
             icon={<FaGraduationCap />}
           >
             <h3>Higher Secondary School Certificate</h3>
-            <h5 className="">Tejgaon College</h5>
+            <h5 className="">BAF Shaheen College Kurmitola</h5>
             <p className="text-light">
-              Science Group, HSC batch of 2018. I started to wondering how a
-              website is built. So, started to learn HTML & CSS. I can still how
-              I felt after seeing the Hello World! in Mozilla.
+              ARTs Group, HSC batch of 2018. I started to wondering how a
+              website is built. So, started to learn HTML & CSS and Digital Marketing.
             </p>
           </VerticalTimelineElement>
 
@@ -79,10 +76,10 @@ const Line = () => {
             icon={<FaGraduationCap />}
           >
             <h3>Secondary School Certificate</h3>
-            <h5 className="">Khilgaon Government High School</h5>
+            <h5 className="">BAF Shaheen College Kurmitola</h5>
             <p className="text-light">
-              Science Group, SSC batch of 2016. In this time my hobby was
-              Photography and Cycling. I always want to learn and implement
+              ARTs Group, SSC batch of 2016. In this time my hobby was
+              Only Computer games and Traveling. I always want to learn and implement
               newer things. I was a very quick learner.
             </p>
           </VerticalTimelineElement>

@@ -2,6 +2,8 @@ import React from "react";
 import { AiFillCustomerService } from "react-icons/ai";
 import { BiBriefcase } from "react-icons/bi";
 import { RiFolderSettingsLine } from "react-icons/ri";
+// import img from '../../Assets/programming.gif'
+import img from '../../Assets/my-img.jpg'
 import Line from "./Line";
 
 const About = () => {
@@ -14,11 +16,11 @@ const About = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="1500"
-          className="container about_container"
+          className="container about_container flex"
         >
           <div className="about_me">
             <div className="about_me_image">
-              <img src={'AboutImage'} alt="" />
+              <img src={img} alt="" />
             </div>
           </div>
           <div className="about_content">
@@ -41,19 +43,17 @@ const About = () => {
             </div>
 
             <p>
-              I'm a frontend-based full-stack developer from Bangladesh. I love
-              web development because I can showcase my creativity in this work.
-              I want to see myself as a skilled web developer with my hard work.
-              I want to work with someone who can help me develop both my
-              professional and personal abilities. Currently, I'm studying
-              Computer Science and Engineering at Daffodil International
-              University.
+              I'm a frontend-based full-stack developer from Bangladesh. I'm a passion for developing innovative web operations. Who's well-clued in
+              technology and jotting laws to produce systems that are dependable and visitor friendly. I'm a confident
+              prophet, strategic thinker, and innovative creator to develop software that's customized to meet a company’s
+              organizational requirements, punctuate its core capabilities, and further its success.
             </p>
 
             <a className="btn btn-primary" href="#contact">
-              Let's Talk
+              Contact Me
             </a>
           </div>
+          
         </div>
         <Line></Line>
       </section>

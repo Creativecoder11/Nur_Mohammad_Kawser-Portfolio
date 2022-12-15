@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
-// import './Footer.css'
+import './Footer.css'
 
 const Footer = () => {
   return (
@@ -14,36 +14,33 @@ const Footer = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#timeline">Education</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
             <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
           </li>
         </ul>
 
-        <div className="flex justify-center gap-16 mt-10">
+        <div className="footer_social flex justify-center gap-16 mt-10 ">
           <a
-            href="https://www.linkedin.com/in/sakib08/"
+            href="https://www.linkedin.com/in/nur-mohammad-kawser/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/sakib-xrz"
+            href="https://github.com/creativecoder11"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithubSquare />
           </a>
           <a
-            href="https://www.facebook.com/itsonlysakib"
+            href="https://www.facebook.com/nurmohammadkawser1"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -51,9 +48,9 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className="footer_copyright">
+        <div className="footer_copyright mt-5">
           <small className="copy">
-            &copy; Md Sakibul Islam. All right reserved.
+            &copy; Nur Mohammad Kawser. All right reserved.
           </small>
         </div>
       </footer>

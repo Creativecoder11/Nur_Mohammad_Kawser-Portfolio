@@ -1,17 +1,20 @@
 import React from "react";
 import { AiFillHtml5 } from "react-icons/ai";
-import { DiCss3 } from "react-icons/di";
+import { DiCss3, DiWordpress } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
-import { FaBootstrap } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { FaBootstrap, FaDeskpro, FaNodeJs, FaWordpress } from "react-icons/fa";
+import { SiAdobeillustrator, SiAdobepremierepro, SiExpress, SiFirebase, SiMongodb, SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiVisualstudiocode } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import { SiAdobephotoshop } from "react-icons/si";
+import { VscJson } from "react-icons/vsc";
 import { IoLogoCodepen } from "react-icons/io";
-import { FiFigma } from "react-icons/fi";
+import { FiFigma, FiTarget } from "react-icons/fi";
 import { SiNetlify } from "react-icons/si";
+import { ImWordpress } from "react-icons/im";
 import './Experience.css'
+import { AnimatePresence } from "framer-motion";
 
 const Experience = () => {
   return (
@@ -79,6 +82,60 @@ const Experience = () => {
             className="experience_tools"
           >
             <div className="experience_frontend">
+              <h3>Backend Development</h3>
+              <div className="experience_content">
+                <article className="experience_details">
+                  <FaNodeJs className="experience-icons" />
+                  <div>
+                    <h4>Node JS</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <SiExpress className="experience-icons" />
+                  <div>
+                    <h4>Express JS</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <SiMongodb className="experience-icons" />
+                  <div>
+                    <h4>MongoDB</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <ImWordpress className="experience-icons" />
+                  <div>
+                    <h4>Wordpress</h4>
+                    <small className="text-light">Experienced</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <SiFirebase className="experience-icons" />
+                  <div>
+                    <h4>Firebase</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <VscJson className="experience-icons" />
+                  <div>
+                    <h4>JWT</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            className="experience_tools"
+          >
+            <div className="experience_frontend">
               <h3>Systems & Tools</h3>
               <div className="experience_content">
                 <article className="experience_details">
@@ -120,6 +177,59 @@ const Experience = () => {
                   <FiFigma className="experience-icons" />
                   <div>
                     <h4>Figma</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            className="experience_tools"
+          >
+            <div className="experience_frontend">
+              <h3>Others</h3>
+              <div className="experience_content">
+                <article className="experience_details">
+                  <FaWordpress className="experience-icons" />
+                  <div>
+                    <h4>Wordpress</h4>
+                    <small className="text-light">Experience</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <FaDeskpro className="experience-icons" />
+                  <div>
+                    <h4>Digi Marketing</h4>
+                    <small className="text-light">Experience</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <FiTarget className="experience-icons" />
+                  <div>
+                    <h4>SEO - Basic</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <SiAdobephotoshop className="experience-icons" />
+                  <div>
+                    <h4>Photoshop</h4>
+                    <small className="text-light">Experienced</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <SiAdobepremierepro className="experience-icons" />
+                  <div>
+                    <h4>Premiere Pro</h4>
+                    <small className="text-light">Basic</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <SiAdobeillustrator className="experience-icons" />
+                  <div>
+                    <h4>Illustrator</h4>
                     <small className="text-light">Intermediate</small>
                   </div>
                 </article>

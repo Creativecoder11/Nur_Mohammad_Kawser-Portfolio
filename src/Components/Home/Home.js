@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import Navbar from '../../Shared/Navbar/Navbar';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
@@ -12,12 +13,7 @@ const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <Header></Header>
-            <About></About>
-            <Experience></Experience>
-            <Portfolio></Portfolio>
-            <Services></Services>
-            <Contact></Contact>
+            <Outlet></Outlet>
             <Footer></Footer>
         </div>
     );

@@ -14,23 +14,16 @@ const Contact = () => {
     const contactForm = e.target;
     emailjs
       .sendForm(
-        "service_dkvcfzt",
-        "template_yhuap9f",
+        "service_f84mblo",
+        "template_riyckov",
         form.current,
-        "WYMT3hCaO6rq9MWN0"
+        "b-LTWDJrlrz81olFa"
       )
       .then(
         (result) => {
           if (result.text) {
             contactForm.reset();
-            toast.success("Message sent", {
-              style: {
-                border: "1px solid #26537C",
-                backgroundColor: "#14233B",
-                padding: "16px",
-                color: "#ffffff",
-              },
-            });
+            toast.success("Message sent");
           }
         },
         (error) => {
@@ -52,9 +45,9 @@ const Contact = () => {
           <article className="contact_option">
             <BiEnvelope className="contact_icon" />
             <h4>Email</h4>
-            <h5>sakibul.islam0808@gmail.com</h5>
+            <h5 className="text-sm">nurmohammadkawser11@gmail.com</h5>
             <a
-              href="mailto:sakibul.islam0808@gmail.com"
+              href="mailto:nurmohammadkawser11@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -64,9 +57,9 @@ const Contact = () => {
           <article className="contact_option">
             <RiMessengerLine className="contact_icon" />
             <h4>Messenger</h4>
-            <h5>Sakib XRz</h5>
+            <h5>Nur Mohammad Kawser</h5>
             <a
-              href="https://m.me/itsonlysakib"
+              href="https://m.me/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -76,9 +69,9 @@ const Contact = () => {
           <article className="contact_option">
             <BsWhatsapp className="contact_icon" />
             <h4>WhatsApp</h4>
-            <h5>01409029742</h5>
+            <h5>+8801931927452</h5>
             <a
-              href="https://api.whatsapp.com/send?phone=+8801409029742"
+              href="https://api.whatsapp.com/send?phone=+8801931927452"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -14,8 +14,16 @@
   text-decoration: none;
 }
 
+/* linear-gradient(
+    to right bottom,
+    #0b263b,
+    #11243b,
+    #18223a,
+    #1e2039,
+    #231d37 */
+
 :root {
-  --color-bg: #1f1f38;
+  --color-bg: #050227;
   --color-bg-variant: linear-gradient(
     to right bottom,
     #0b263b,
@@ -62,7 +70,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
+  /* background: var(--color-bg); */
   color: var(--color-white);
   line-height: 1.7;
   /* background-image: url(./../src/assets/bg-img.jpg); */
@@ -127,7 +135,7 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: var(--color-white);
-  padding: 0.75rem 1.2rem;
+  padding: 1rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid #4db5ff;
@@ -135,8 +143,8 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--color-white);
-  color: var(--color-bg);
+  background: white;
+  color: black;
   border-color: transparent;
 }
 

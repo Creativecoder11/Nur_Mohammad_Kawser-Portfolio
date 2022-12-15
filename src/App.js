@@ -4,6 +4,8 @@ import { router } from './Routes/Routes';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import video from './Assets/videoplayback.mp4'
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   useEffect(() => {
@@ -11,7 +13,13 @@ function App() {
   }, []);
   return (
     <div className="App">
-     <RouterProvider router={router} />
+      <div>
+        <video className='videoTag w-full h-full' autoPlay loop muted>
+              <source src={video} type='video/mp4' />
+        </video>
+        <Toaster/>
+        <RouterProvider router={router} />
+      </div>
     </div>
   );
 }
