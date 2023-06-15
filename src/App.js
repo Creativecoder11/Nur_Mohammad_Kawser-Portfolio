@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <video className='videoTag w-full h-full' autoPlay loop muted>
+        <video className='videoTag min-h-screen h-full' autoPlay loop muted>
               <source src={video} type='video/mp4' />
         </video>
         <Toaster/>
